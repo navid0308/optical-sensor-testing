@@ -1,2 +1,2 @@
 # optical-sensor-testing
-Code to read HEX data sent wirelessly from an optical sensor to analyze it's responsiveness.
+Coded and developed a benchmarking framework to test the responsiveness of a wireless optical sensor. Data frames were hexadecimal digits with unique opening and closing characters that were being sent continuously as a byte stream. A challenge was to extract the last complete data frame; often the latest data would be an incomplete data frame and not contain any usable information until it was complete.
